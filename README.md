@@ -26,13 +26,17 @@ For each fixed $\eta>0$, fixed total variation accuracy, and a supplied polynomi
 
 The warm input is supplied, and its preparation is not counted. This manuscript does not supply a general cold-start $\sqrt{\kappa}\,d^\eta$ theorem. The precise input spaces, curvature normalization, and initialization options are stated in the main theorem and its corollary.
 
-The manuscript has 73 pages and uses a latent-state construction with simultaneous Picard iteration.
+The revised manuscript has 46 pages. It uses a Gaussian conditional probability flow with retained momentum, a kinetic heat cycle, recursive conditional-mean evaluation and simultaneous affine iteration.
+
+### Lean formalization
+
+The accompanying [Lean source](lean/warm-start/README.md) formalizes Theorem 1.1 and Corollary 1.2 of the revised warm-start manuscript. See the [theorem correspondence](lean/warm-start/CORRESPONDENCE.md) for exact scope and [build instructions](lean/warm-start/README.md#toolchain-and-build) for the pinned Lean 4.34.1 and mathlib versions. Theorem 1.3 is not included in the formalization. This is a probability/oracle-model formalization, not an extracted numerical sampler.
 
 ## Files
 
 - The manuscripts above contain the precise statements, assumptions, and proofs.
 - [Manuscripts and sources](SOURCES.md) records the PDF checksums and the sources of inherited material.
-- [SHA-256 checksums](SHA256SUMS) identify the exact manuscript files.
+- [SHA-256 checksums](SHA256SUMS) identify the manuscript, documentation and Lean source files.
 
 Both query bounds use exact-real computation conventions. They are not arithmetic-runtime or finite-bit complexity bounds. Fixed approximation orders and their constants should be read as stated in each manuscript; no uniform polylogarithmic inverse-accuracy guarantee is asserted.
 
@@ -53,3 +57,4 @@ The manuscripts retain their citations and attribution for earlier work. In part
 ## Feedback
 
 Feedback on the theorem statements, proof details, oracle accounting, and exposition is welcome. Please identify the manuscript and the relevant section or equation when reporting a correction.
+

@@ -1,0 +1,330 @@
+{
+  "repository": "https://github.com/DakeBU/Automization-Sampling-Optimisation-Geometry-Lib",
+  "revision": "933dd38de9423d2967bc36b501b3a2006343000d",
+  "license": "Apache-2.0 express historical grant in LICENSE_SCOPE.md, subject to third-party exclusions; stated effective date November 3, 2026.",
+  "note": "Historical upstream module paths and hashes are retained with local adaptation descriptions. See LICENSE, NOTICE, LICENSE_SCOPE.md and UPSTREAM_NOTICE.md.",
+  "files": [
+    {
+      "upstream_module": "AutoSamplingTheory.TechnicalLemmas.Analysis.Calculus.Cutoff",
+      "upstream_sha256": "2e931c85c06a0a5ad815a396e7b9e678dc5fb0fd8bcdf6ba6ab2eabe2cde1706",
+      "local_path": "AcceleratedLogConcave/External/Samplinglib/TechnicalLemmas/Analysis/Calculus/Cutoff.lean",
+      "release_sha256": "2e931c85c06a0a5ad815a396e7b9e678dc5fb0fd8bcdf6ba6ab2eabe2cde1706",
+      "changes": [],
+      "modification_notice_added": false,
+      "license_grant_revision": "9f7a7419ea401547c71c5c2890380ec357fa983a"
+    },
+    {
+      "upstream_module": "AutoSamplingTheory.TechnicalLemmas.Analysis.Calculus.Gradient",
+      "upstream_sha256": "9482edb1349892d5a8104f25080e5ce2a0b6135862a3ece6ec283a614e42920a",
+      "local_path": "AcceleratedLogConcave/External/Samplinglib/TechnicalLemmas/Analysis/Calculus/Gradient.lean",
+      "release_sha256": "3ff59d924312e509fe6011a6c1973d87ff27d66bf722006e4e678a595ef7c336",
+      "changes": [
+        "Relocate selected upstream imports to AcceleratedLogConcave.External.Samplinglib; retain declaration namespaces."
+      ],
+      "modification_notice_added": true,
+      "license_grant_revision": "9f7a7419ea401547c71c5c2890380ec357fa983a"
+    },
+    {
+      "upstream_module": "AutoSamplingTheory.TechnicalLemmas.Analysis.Calculus.GradientAlgebra",
+      "upstream_sha256": "b250cbeadefcde5ee883796a6755967a0cfbf791abc13ba680bd4b6e741d572c",
+      "local_path": "AcceleratedLogConcave/External/Samplinglib/TechnicalLemmas/Analysis/Calculus/GradientAlgebra.lean",
+      "release_sha256": "8f8bfa93597957dbaa6a79f7b4854f89129c2d0851b0bce00dd9f7685e37795a",
+      "changes": [
+        "Relocate selected upstream imports to AcceleratedLogConcave.External.Samplinglib; retain declaration namespaces."
+      ],
+      "modification_notice_added": true,
+      "license_grant_revision": "9f7a7419ea401547c71c5c2890380ec357fa983a"
+    },
+    {
+      "upstream_module": "AutoSamplingTheory.TechnicalLemmas.Analysis.Calculus.Laplacian",
+      "upstream_sha256": "acef6224e76c715444d44ed7d07f4d159226c739b01cff781c15eb81ce1b8572",
+      "local_path": "AcceleratedLogConcave/External/Samplinglib/TechnicalLemmas/Analysis/Calculus/Laplacian.lean",
+      "release_sha256": "f24ec47275fff4679abc825fd8f08dfa9a858ce56c3832c1174c36f6bbbe82f1",
+      "changes": [
+        "Relocate selected upstream imports to AcceleratedLogConcave.External.Samplinglib; retain declaration namespaces."
+      ],
+      "modification_notice_added": true,
+      "license_grant_revision": "9f7a7419ea401547c71c5c2890380ec357fa983a"
+    },
+    {
+      "upstream_module": "AutoSamplingTheory.TechnicalLemmas.Analysis.HessianSecantOperator",
+      "upstream_sha256": "5fd26bfab4df6d62c7a4cfc319a2cfb6e1a7447299930a68ef6cce162e904886",
+      "local_path": "AcceleratedLogConcave/External/Samplinglib/TechnicalLemmas/Analysis/HessianSecantOperator.lean",
+      "release_sha256": "5fd26bfab4df6d62c7a4cfc319a2cfb6e1a7447299930a68ef6cce162e904886",
+      "changes": [],
+      "modification_notice_added": false,
+      "license_grant_revision": "9f7a7419ea401547c71c5c2890380ec357fa983a"
+    },
+    {
+      "upstream_module": "AutoSamplingTheory.TechnicalLemmas.Analysis.WeakGradientZero",
+      "upstream_sha256": "2325c0afab2ac65bc94e117b15f984e10f0bd53a45cfa6d31ac573173e211ed3",
+      "local_path": "AcceleratedLogConcave/External/Samplinglib/TechnicalLemmas/Analysis/WeakGradientZero.lean",
+      "release_sha256": "2325c0afab2ac65bc94e117b15f984e10f0bd53a45cfa6d31ac573173e211ed3",
+      "changes": [],
+      "modification_notice_added": false,
+      "license_grant_revision": "9f7a7419ea401547c71c5c2890380ec357fa983a"
+    },
+    {
+      "upstream_module": "AutoSamplingTheory.TechnicalLemmas.FunctionalInequalities.CenteredDomainPoincare",
+      "upstream_sha256": "ff8c4ce3a3d62ed92243f772d7c6dc55b0e2e00b66c936ae079bf8bef6e28134",
+      "local_path": "AcceleratedLogConcave/External/Samplinglib/TechnicalLemmas/FunctionalInequalities/CenteredDomainPoincare.lean",
+      "release_sha256": "6fec2493d76a8555cdde56f1998be2cd2d246c5e54e303534ce51f68a3f46c66",
+      "changes": [
+        "Relocate selected upstream imports to AcceleratedLogConcave.External.Samplinglib; retain declaration namespaces."
+      ],
+      "modification_notice_added": true,
+      "license_grant_revision": "9f7a7419ea401547c71c5c2890380ec357fa983a"
+    },
+    {
+      "upstream_module": "AutoSamplingTheory.TechnicalLemmas.FunctionalInequalities.CenteredGibbsResolventLimit",
+      "upstream_sha256": "431eae4cc29024e1dc0c6400c5dca0a9b49d3a7f320c7649b2060038e9e63a46",
+      "local_path": "AcceleratedLogConcave/External/Samplinglib/TechnicalLemmas/FunctionalInequalities/CenteredGibbsResolventLimit.lean",
+      "release_sha256": "a1a5b3819953ae5e3ed72a8c25b973218b3c1a6b8b4873236bc57c53ab18da30",
+      "changes": [
+        "Relocate selected upstream imports to AcceleratedLogConcave.External.Samplinglib; retain declaration namespaces.",
+        "Replace three local letI instance declarations with let for Lean compatibility."
+      ],
+      "modification_notice_added": true,
+      "license_grant_revision": "9f7a7419ea401547c71c5c2890380ec357fa983a"
+    },
+    {
+      "upstream_module": "AutoSamplingTheory.TechnicalLemmas.FunctionalInequalities.ClosedGraphResolvent",
+      "upstream_sha256": "32ed6c367cdd5f52578366b83a448f96619f362b05d05e25963c3efbf870e022",
+      "local_path": "AcceleratedLogConcave/External/Samplinglib/TechnicalLemmas/FunctionalInequalities/ClosedGraphResolvent.lean",
+      "release_sha256": "32ed6c367cdd5f52578366b83a448f96619f362b05d05e25963c3efbf870e022",
+      "changes": [],
+      "modification_notice_added": false,
+      "license_grant_revision": "9f7a7419ea401547c71c5c2890380ec357fa983a"
+    },
+    {
+      "upstream_module": "AutoSamplingTheory.TechnicalLemmas.FunctionalInequalities.CompactC1GradientDomain",
+      "upstream_sha256": "dd6234dfec6d2dfb351d1ad45c3fcc0eb111e1c18038ebc4c6ab48035033a2f7",
+      "local_path": "AcceleratedLogConcave/External/Samplinglib/TechnicalLemmas/FunctionalInequalities/CompactC1GradientDomain.lean",
+      "release_sha256": "179256e00e0daa6a6e74796f20716d54ef9929ecb3af82b221058404e29b9252",
+      "changes": [
+        "Relocate selected upstream imports to AcceleratedLogConcave.External.Samplinglib; retain declaration namespaces.",
+        "Omit unused section typeclass variables from l2_convergence."
+      ],
+      "modification_notice_added": true,
+      "license_grant_revision": "9f7a7419ea401547c71c5c2890380ec357fa983a"
+    },
+    {
+      "upstream_module": "AutoSamplingTheory.TechnicalLemmas.FunctionalInequalities.CompactPoissonSmoothGraph",
+      "upstream_sha256": "fdb744363aa54f0338f203db0da8b0ae591fee76049c95f39af46ae30da93cf5",
+      "local_path": "AcceleratedLogConcave/External/Samplinglib/TechnicalLemmas/FunctionalInequalities/CompactPoissonSmoothGraph.lean",
+      "release_sha256": "e9964e3b9afd3276e4bf2d8aa5dc1ed4b8b681ff98879931accce58f7e087d56",
+      "changes": [
+        "Relocate selected upstream imports to AcceleratedLogConcave.External.Samplinglib; retain declaration namespaces.",
+        "Rewrite the top-exponent eLpNorm using strong measurability before applying the essential-supremum bound."
+      ],
+      "modification_notice_added": true,
+      "license_grant_revision": "9f7a7419ea401547c71c5c2890380ec357fa983a"
+    },
+    {
+      "upstream_module": "AutoSamplingTheory.TechnicalLemmas.FunctionalInequalities.CompactWeakPoissonSobolev",
+      "upstream_sha256": "019f3577b1eb5ff4d7db00a484bbbf206362a1466d84c6bafbdb5e4e315c5676",
+      "local_path": "AcceleratedLogConcave/External/Samplinglib/TechnicalLemmas/FunctionalInequalities/CompactWeakPoissonSobolev.lean",
+      "release_sha256": "9732a389f89e1060ccd9a9f16cec905156847e81d619078cffb1489e4dd193a1",
+      "changes": [
+        "Omit unused measurable/Borel section variables from outer_cutoff."
+      ],
+      "modification_notice_added": true,
+      "license_grant_revision": "9f7a7419ea401547c71c5c2890380ec357fa983a"
+    },
+    {
+      "upstream_module": "AutoSamplingTheory.TechnicalLemmas.FunctionalInequalities.CompactWeightedPoissonCoercivity",
+      "upstream_sha256": "9a603e57b54ac5641de3eef0ee4af57d5520a3914bbfe10e2ab499d913c694f6",
+      "local_path": "AcceleratedLogConcave/External/Samplinglib/TechnicalLemmas/FunctionalInequalities/CompactWeightedPoissonCoercivity.lean",
+      "release_sha256": "6f9c685b3b951ce1e018475b1b1ef83711afe0af1623a5a0e3cdd25ab2a0c77f",
+      "changes": [
+        "Relocate selected upstream imports to AcceleratedLogConcave.External.Samplinglib; retain declaration namespaces.",
+        "Supply explicit strong-measurability premises, use MemLp.ne, and expose compact_convergence, compact_weight_bound, compact_drift_bound, drift_convergence, gradient_support and laplacian_support as public helpers."
+      ],
+      "modification_notice_added": true,
+      "license_grant_revision": "9f7a7419ea401547c71c5c2890380ec357fa983a"
+    },
+    {
+      "upstream_module": "AutoSamplingTheory.TechnicalLemmas.FunctionalInequalities.GibbsC1Poincare",
+      "upstream_sha256": "390e456ba2aac407fb9c95ae5622ad5b24625cf9a8dd5accb5b9c23827607397",
+      "local_path": "AcceleratedLogConcave/External/Samplinglib/TechnicalLemmas/FunctionalInequalities/GibbsC1Poincare.lean",
+      "release_sha256": "5ff5ada3c95f1dd113722d4a3970fc243c2f94d5dc1b3e8c0deed30c0cdafae8",
+      "changes": [
+        "Relocate selected upstream imports to AcceleratedLogConcave.External.Samplinglib; retain declaration namespaces."
+      ],
+      "modification_notice_added": true,
+      "license_grant_revision": "9f7a7419ea401547c71c5c2890380ec357fa983a"
+    },
+    {
+      "upstream_module": "AutoSamplingTheory.TechnicalLemmas.FunctionalInequalities.GibbsGradientKernel",
+      "upstream_sha256": "a078403a10e4a00f60f56752e487dae09ea19ee6170c5ebe045f93a811c0be9c",
+      "local_path": "AcceleratedLogConcave/External/Samplinglib/TechnicalLemmas/FunctionalInequalities/GibbsGradientKernel.lean",
+      "release_sha256": "7113665a050c58e1891e28c2da7aa7728e3e15abd9575da129c40104150c6635",
+      "changes": [
+        "Relocate selected upstream imports to AcceleratedLogConcave.External.Samplinglib; retain declaration namespaces."
+      ],
+      "modification_notice_added": true,
+      "license_grant_revision": "9f7a7419ea401547c71c5c2890380ec357fa983a"
+    },
+    {
+      "upstream_module": "AutoSamplingTheory.TechnicalLemmas.FunctionalInequalities.GlobalWeightedResolventCoercivity",
+      "upstream_sha256": "3d95dae993c65f225c68650a4842207ce2440c64679862a8d10e57e20c4494a8",
+      "local_path": "AcceleratedLogConcave/External/Samplinglib/TechnicalLemmas/FunctionalInequalities/GlobalWeightedResolventCoercivity.lean",
+      "release_sha256": "ab6eae899c51ff000517777b5d3051847b2503d0500a14683778e8b80b9e9f44",
+      "changes": [
+        "Relocate selected upstream imports to AcceleratedLogConcave.External.Samplinglib; retain declaration namespaces.",
+        "Add an explicit Laplacian import and expose actual_cutoff_function_convergence and actual_cutoff_commutators as public helpers."
+      ],
+      "modification_notice_added": true,
+      "license_grant_revision": "9f7a7419ea401547c71c5c2890380ec357fa983a"
+    },
+    {
+      "upstream_module": "AutoSamplingTheory.TechnicalLemmas.FunctionalInequalities.LocalizedWeakResolvent",
+      "upstream_sha256": "5fb157f3bfd725cddd571178f52cd244b4949386a2db6dd6e41efbde835e7c8d",
+      "local_path": "AcceleratedLogConcave/External/Samplinglib/TechnicalLemmas/FunctionalInequalities/LocalizedWeakResolvent.lean",
+      "release_sha256": "7ad17cdb3b6acfc2793efadba733c49db08bd0e8fd68e19acb2097034176b1f3",
+      "changes": [
+        "Relocate selected upstream imports to AcceleratedLogConcave.External.Samplinglib; retain declaration namespaces.",
+        "Omit unused section variables from nine private helpers and remove a redundant rfl step after convert."
+      ],
+      "modification_notice_added": true,
+      "license_grant_revision": "9f7a7419ea401547c71c5c2890380ec357fa983a"
+    },
+    {
+      "upstream_module": "AutoSamplingTheory.TechnicalLemmas.FunctionalInequalities.OrdinaryWeakResolvent",
+      "upstream_sha256": "0da6980d11a96f441f6cb2e1bd69f8b860c496885cf28a9d44b8e0819f66c334",
+      "local_path": "AcceleratedLogConcave/External/Samplinglib/TechnicalLemmas/FunctionalInequalities/OrdinaryWeakResolvent.lean",
+      "release_sha256": "60e200e5aa66bf0bd12813570131a791975c34439faa2f78e769568bbe1c3ea1",
+      "changes": [
+        "Relocate selected upstream imports to AcceleratedLogConcave.External.Samplinglib; retain declaration namespaces.",
+        "Omit unused variables from inverseweight_gradient and simplify three elaboration/proof-conversion steps."
+      ],
+      "modification_notice_added": true,
+      "license_grant_revision": "9f7a7419ea401547c71c5c2890380ec357fa983a"
+    },
+    {
+      "upstream_module": "AutoSamplingTheory.TechnicalLemmas.FunctionalInequalities.Poincare",
+      "upstream_sha256": "e1a01d38ce2c418273d805cc7ade34ba1ec4114b647d6e787a6f5bd6ddb27af3",
+      "local_path": "AcceleratedLogConcave/External/Samplinglib/TechnicalLemmas/FunctionalInequalities/Poincare.lean",
+      "release_sha256": "19b50eca76ffea65e8ea8f82ef451e98e8c7ab200b97054b6095894757370025",
+      "changes": [
+        "Relocate selected upstream imports to AcceleratedLogConcave.External.Samplinglib; retain declaration namespaces."
+      ],
+      "modification_notice_added": true,
+      "license_grant_revision": "9f7a7419ea401547c71c5c2890380ec357fa983a"
+    },
+    {
+      "upstream_module": "AutoSamplingTheory.TechnicalLemmas.FunctionalInequalities.ScaledClosedGraphResolvent",
+      "upstream_sha256": "fe20da633230d693a8a4c93c6524d3d6d2c9b5ff652d6d26098dd9bd0fabe9ad",
+      "local_path": "AcceleratedLogConcave/External/Samplinglib/TechnicalLemmas/FunctionalInequalities/ScaledClosedGraphResolvent.lean",
+      "release_sha256": "3d3d2ba415a4b006de709a470a38640138d2d0134ecd5f324171ec754778354c",
+      "changes": [
+        "Omit unused completeness section variables from scaled_energy_bounds."
+      ],
+      "modification_notice_added": true,
+      "license_grant_revision": "9f7a7419ea401547c71c5c2890380ec357fa983a"
+    },
+    {
+      "upstream_module": "AutoSamplingTheory.TechnicalLemmas.FunctionalInequalities.WeightedBochner",
+      "upstream_sha256": "39b11508ddb3026e3033274a844708fd243621f460c81cc738065754b1364e9c",
+      "local_path": "AcceleratedLogConcave/External/Samplinglib/TechnicalLemmas/FunctionalInequalities/WeightedBochner.lean",
+      "release_sha256": "3e3525536ecbae47d2b1ed48965475565ce3eb0d0485f899044df8393d819fd4",
+      "changes": [
+        "Relocate selected upstream imports to AcceleratedLogConcave.External.Samplinglib; retain declaration namespaces.",
+        "Replace the LangevinCarreDuChamp import with the used Gradient, Mathlib Laplacian and FTaylorSeries imports."
+      ],
+      "modification_notice_added": true,
+      "license_grant_revision": "9f7a7419ea401547c71c5c2890380ec357fa983a"
+    },
+    {
+      "upstream_module": "AutoSamplingTheory.TechnicalLemmas.FunctionalInequalities.WeightedC1GradientDomain",
+      "upstream_sha256": "c22f94f2542190fb22c76c00612ba50b59c096290bc373d86a6884230bfea496",
+      "local_path": "AcceleratedLogConcave/External/Samplinglib/TechnicalLemmas/FunctionalInequalities/WeightedC1GradientDomain.lean",
+      "release_sha256": "02bcb834d60d975d05aa08e27c25b4d71b9b25d304bb32530c2d2588a6854444",
+      "changes": [
+        "Relocate selected upstream imports to AcceleratedLogConcave.External.Samplinglib; retain declaration namespaces."
+      ],
+      "modification_notice_added": true,
+      "license_grant_revision": "9f7a7419ea401547c71c5c2890380ec357fa983a"
+    },
+    {
+      "upstream_module": "AutoSamplingTheory.TechnicalLemmas.FunctionalInequalities.WeightedGradient",
+      "upstream_sha256": "5bd3402124330f69d7875e9bbfc6eb31760b70528850ac841d1ff7c84ab72149",
+      "local_path": "AcceleratedLogConcave/External/Samplinglib/TechnicalLemmas/FunctionalInequalities/WeightedGradient.lean",
+      "release_sha256": "295dfbb8c025f0e518cda039b8aa8df84700cefdd6979f08caa15f11a4d10f6a",
+      "changes": [
+        "Relocate selected upstream imports to AcceleratedLogConcave.External.Samplinglib; retain declaration namespaces."
+      ],
+      "modification_notice_added": true,
+      "license_grant_revision": "9f7a7419ea401547c71c5c2890380ec357fa983a"
+    },
+    {
+      "upstream_module": "AutoSamplingTheory.TechnicalLemmas.FunctionalInequalities.WeightedGradientDistribution",
+      "upstream_sha256": "0e4292c24ad6b24cff053cddd8a9fb4dc24ad3b573886284cfc7bb1f5b29c6fc",
+      "local_path": "AcceleratedLogConcave/External/Samplinglib/TechnicalLemmas/FunctionalInequalities/WeightedGradientDistribution.lean",
+      "release_sha256": "7148b1108bcd8385558cbad8a4b88c385df447d4d96de7b1c6aee1374a16ae53",
+      "changes": [
+        "Relocate selected upstream imports to AcceleratedLogConcave.External.Samplinglib; retain declaration namespaces."
+      ],
+      "modification_notice_added": true,
+      "license_grant_revision": "9f7a7419ea401547c71c5c2890380ec357fa983a"
+    },
+    {
+      "upstream_module": "AutoSamplingTheory.TechnicalLemmas.FunctionalInequalities.WeightedGradientWeak",
+      "upstream_sha256": "229fdeede8f2517cd6125ad74c2fd7feb9454c9268e18bd72d7bae141f32aa5c",
+      "local_path": "AcceleratedLogConcave/External/Samplinglib/TechnicalLemmas/FunctionalInequalities/WeightedGradientWeak.lean",
+      "release_sha256": "44edb7038b7dbd239f58df297ab250a7a17101861eaf683a6c8bca63d0f2dab7",
+      "changes": [
+        "Relocate selected upstream imports to AcceleratedLogConcave.External.Samplinglib; retain declaration namespaces."
+      ],
+      "modification_notice_added": true,
+      "license_grant_revision": "9f7a7419ea401547c71c5c2890380ec357fa983a"
+    },
+    {
+      "upstream_module": "AutoSamplingTheory.TechnicalLemmas.FunctionalInequalities.WeightedLocalL2",
+      "upstream_sha256": "a61421bdad21ef0ebf65dce11738f20146a7f53107ad6c355e31f7f973c14bb8",
+      "local_path": "AcceleratedLogConcave/External/Samplinglib/TechnicalLemmas/FunctionalInequalities/WeightedLocalL2.lean",
+      "release_sha256": "a61421bdad21ef0ebf65dce11738f20146a7f53107ad6c355e31f7f973c14bb8",
+      "changes": [],
+      "modification_notice_added": false,
+      "license_grant_revision": "9f7a7419ea401547c71c5c2890380ec357fa983a"
+    },
+    {
+      "upstream_module": "AutoSamplingTheory.TechnicalLemmas.FunctionalInequalities.WeightedResolvent",
+      "upstream_sha256": "21108f9c99d5f944e97e3c4721d1f9e5f9e2a68afa6122916ba3a16606e1edd3",
+      "local_path": "AcceleratedLogConcave/External/Samplinglib/TechnicalLemmas/FunctionalInequalities/WeightedResolvent.lean",
+      "release_sha256": "775b1027adadd9e2434ca6dfe17c08b77da7be37b481d5dbba4bd0b4dc9159ec",
+      "changes": [
+        "Relocate selected upstream imports to AcceleratedLogConcave.External.Samplinglib; retain declaration namespaces."
+      ],
+      "modification_notice_added": true,
+      "license_grant_revision": "9f7a7419ea401547c71c5c2890380ec357fa983a"
+    },
+    {
+      "upstream_module": "AutoSamplingTheory.TechnicalLemmas.FunctionalInequalities.WeightedResolventC1",
+      "upstream_sha256": "eeff8088dcf213d810af207340365b1bfec7e88398a9b711132a857c24beada5",
+      "local_path": "AcceleratedLogConcave/External/Samplinglib/TechnicalLemmas/FunctionalInequalities/WeightedResolventC1.lean",
+      "release_sha256": "e97d2d131e21268334f889543364dc80e4b2c29209fc2821dbf39938d9a78552",
+      "changes": [
+        "Relocate selected upstream imports to AcceleratedLogConcave.External.Samplinglib; retain declaration namespaces."
+      ],
+      "modification_notice_added": true,
+      "license_grant_revision": "9f7a7419ea401547c71c5c2890380ec357fa983a"
+    },
+    {
+      "upstream_module": "AutoSamplingTheory.TechnicalLemmas.Geometry.EuclideanSpaceCoordinates",
+      "upstream_sha256": "5e0205a46138d35b5461e64c0b22bc250cc6ea7e3c6b3342596700e41dfc344b",
+      "local_path": "AcceleratedLogConcave/External/Samplinglib/TechnicalLemmas/Geometry/EuclideanSpaceCoordinates.lean",
+      "release_sha256": "5e0205a46138d35b5461e64c0b22bc250cc6ea7e3c6b3342596700e41dfc344b",
+      "changes": [],
+      "modification_notice_added": false,
+      "license_grant_revision": "9f7a7419ea401547c71c5c2890380ec357fa983a"
+    }
+  ],
+  "license_grant_revision": "9f7a7419ea401547c71c5c2890380ec357fa983a",
+  "notice_files": [
+    "LICENSE",
+    "NOTICE",
+    "LICENSE_SCOPE.md",
+    "UPSTREAM_NOTICE.md"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "repository": "https://github.com/openai/math",
+  "revision": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+  "license": "Apache-2.0; repository LICENSE retained locally.",
+  "note": "Sanitized source provenance; historical build/audit logs omitted. Current files retain their notices. This metadata does not grant redistribution rights.",
+  "files": [
+    {
+      "upstream_path": "lean/OAI/Probability/LogConcave/Dynamics/Curve.lean",
+      "upstream_sha256": "b2f006645f530330d0439f958291562fc13c50532c1f150349b792feeb51cc63",
+      "local_path": "AcceleratedLogConcave/External/OAI/GlobalODE.lean",
+      "release_sha256": "348d2f4cb7a04a791aca945ecb464596ca7d1344f9502038b21713b7208dd7f2"
+    },
+    {
+      "upstream_path": "lean/OAI/Probability/LogConcave/Dynamics/SpaceTimeForward.lean",
+      "upstream_sha256": "6924d0c681a0f72a0c64d5e8deb967fb2c790227fb3430c288d678e70f52885a",
+      "local_path": "AcceleratedLogConcave/External/OAI/SpaceTimeForward.lean",
+      "release_sha256": "f7fbb4fa49a3e2e21bd4adca1d738bce61a01ad09474d53a0d51909003f7d8b7"
+    },
+    {
+      "upstream_path": "lean/OAI/Probability/LogConcave/Sampling/FDerivTimePartial.lean",
+      "upstream_sha256": "a16839303ea595863728a47deb53a879640c9f01e5ccd641d594a25c8256f960",
+      "local_path": "AcceleratedLogConcave/External/OAI/FDerivTimePartial.lean",
+      "release_sha256": "153e1c6f43bbda8abe0e60406deadac10d0570b045134745145795dea0622e71"
+    },
+    {
+      "upstream_path": "lean/OAI/Probability/LogConcave/Dynamics/TriangularEquiv.lean",
+      "upstream_sha256": "e988fa4da14ba11d1ffbaf176c3e243f544c3dc353a1e9d4c3d89c95799ed7e7",
+      "local_path": "AcceleratedLogConcave/External/OAI/BackwardTest.lean",
+      "release_sha256": "7bd3743b7d4d3167b98038485030ce9f8d5111876f1edb3d75ffa1c5d9c40964"
+    }
+  ]
+}

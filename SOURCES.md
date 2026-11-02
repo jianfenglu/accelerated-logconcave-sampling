@@ -1,6 +1,6 @@
 # Manuscripts and sources
 
-This repository contains two initial research manuscripts in PDF format. Their precise theorem statements, assumptions, and source attributions are given in the PDFs.
+This repository contains two research manuscripts in PDF format and the warm-start Lean formalization. Their precise theorem statements, assumptions, and source attributions are given in the PDFs.
 
 ## Cold accelerated sampling
 
@@ -14,15 +14,16 @@ This repository contains two initial research manuscripts in PDF format. Their p
 
 - Title: *Warm-start sampling with square-root condition-number dependence*
 - File: `manuscripts/warm-start.pdf`
-- Length: 73 pages
-- Scope: supplied-warm, fixed-accuracy original-gradient sampling under the dimension and condition-number restrictions in the main theorem
-- SHA-256: `c312f9ecf492e5bb9f407cd12e740a6f72ec6baee1a9f7f078ce69e5d1cd07da`
+- Length: 46 pages
+- Scope: supplied-warm original-gradient sampling; Theorem 1.1 and Corollary 1.2 are covered by the accompanying Lean formalization. The manuscript's Theorem 1.3 is not formalized.
+- SHA-256: `9505584a55c0906104d5da5901a5d0b7d0c2562cc8b247f86a9882de73c547c8`
+- Lean source: `lean/warm-start/`; see its `CORRESPONDENCE.md`, `SOURCES.md`, and pinned build configuration.
 
 ## Attribution
 
 The manuscripts identify adapted analytic results and proofs from OpenAI's *Subpolynomial query complexity for well-conditioned log-concave sampling*, September 26, 2026. The source is pinned to [the manuscript and its sources at commit adc7f1241b42e322a6451854ab7e4b4c146bf78a](https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Subpolynomial-query-complexity-for-well-conditioned-log-concave-sampling-September-26-2026).
 
-Each PDF contains source citations beside the inherited results, a 30-entry correspondence appendix, and an adaptation/license notice. The inherited sampling Gaussian reserve, conditional-mean machinery, recursive evaluation, Gaussian absorption, and conditional-descent construction are credited separately from the manuscript-specific developments. Earlier numerical, accelerated-sampling, and hypocoercivity references are retained and identified in the bibliographies.
+Both PDFs retain source citations and adaptation/license notices. The cold-start manuscript retains its original statement-level correspondence appendix. The revised warm-start manuscript supplies the current source correspondence and attribution in its final section; its Lean theorem map is separate. The inherited sampling Gaussian reserve, conditional-mean machinery, recursive evaluation, Gaussian absorption, and conditional-descent construction are credited separately from the manuscript-specific developments. Earlier numerical, accelerated-sampling, and hypocoercivity references are retained and identified in the bibliographies.
 
 OpenAI is the immediate source of the adapted statements and proofs, not necessarily the original source of every standard ingredient. Adapted material is reused under the [Apache License 2.0](LICENSE). No endorsement by OpenAI is implied.
 
@@ -36,3 +37,4 @@ The README credits name the contributors to this research release. The affiliati
 - [arXiv:2609.15884v1, September 14, 2026](https://arxiv.org/pdf/2609.15884v1): Yunbum Kook.
 
 The README contributor credits are separate from the manuscripts.
+

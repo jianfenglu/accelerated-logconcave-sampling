@@ -1,3 +1,11 @@
+# Revised warm-start manuscript and Lean formalization
+
+This update publishes the revised 46-page warm-start manuscript together with its Lean formalization of Theorem 1.1 and Corollary 1.2. The manuscript's Theorem 1.3 is outside the formalized scope. The source includes pinned build configuration, theorem correspondence and third-party notices.
+
+The cold-start manuscript is unchanged. The earlier release record follows below.
+
+---
+
 # Initial manuscript release
 
 **The manuscript content is AI-generated.** These initial drafts combine OpenAI’s released work with our existing ongoing research and ideas; improved understanding and exposition are in preparation.

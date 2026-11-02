@@ -1,0 +1,6 @@
+import AcceleratedLogConcave.WarmStart
+
+#print axioms AcceleratedLogConcave.WarmStart.accelerated_warm_start
+#print axioms AcceleratedLogConcave.WarmStart.original_target_warm_error
+#print axioms AcceleratedLogConcave.WarmStart.implemented_error
+#print axioms AcceleratedLogConcave.WarmStart.public_parameters

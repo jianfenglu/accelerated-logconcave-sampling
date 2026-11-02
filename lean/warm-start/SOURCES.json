@@ -1,0 +1,23 @@
+{
+  "scope": "WarmStart module transitive import closure; not a blanket licensing grant",
+  "upstream_records": [
+    {
+      "repository": "https://github.com/openai/math",
+      "revision": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+      "license": "Apache-2.0; repository LICENSE retained locally."
+    },
+    {
+      "repository": "https://github.com/DakeBU/Automization-Sampling-Optimisation-Geometry-Lib",
+      "revision": "933dd38de9423d2967bc36b501b3a2006343000d",
+      "license": "Apache-2.0 express historical grant in LICENSE_SCOPE.md, subject to third-party exclusions; stated effective date November 3, 2026.",
+      "license_grant_revision": "9f7a7419ea401547c71c5c2890380ec357fa983a"
+    }
+  ],
+  "workflow_guidance": {
+    "repository": "https://github.com/scottnarmstrong/LeanAutoformalizationSkills",
+    "revision": "05a07311f16bc581729e52f3e73647b95fa9bef1",
+    "author": "Scott Armstrong",
+    "license": "CC BY 4.0 for original skills/reference material",
+    "role": "workflow guidance only; not redistributed here"
+  }
+}
